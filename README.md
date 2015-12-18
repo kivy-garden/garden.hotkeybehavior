@@ -23,4 +23,9 @@ Its use is very simple:
  6. close the app (yes, it will still just hide)
  7. hit once more "alt+space" to make the label reappear again
  8. ... (continue having fun)
+
+TODO:
+ - implement hotkey for other plaftorm than win32
+ - hide app on lost focus (but event is missing at Window level)
+ -
  
