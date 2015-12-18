@@ -7,14 +7,16 @@ that appear on demand through hotkey and stay in the background otherwise as:
  - a widget that pops up with information (weather, system ressources, ...)
 
 Its use is very simple:
- 1. make your root widget inherit from HotKeyBehavior (should come first in the inheritance order)
+ 1. make your root widget inherit from HotKeyBehavior (should come first in the inheritance order):
  
+    ```python
     class HotKeyLabel(HotKeyBehavior, Label):
         text = "Hello world!"
 
     runTouchApp(HotKeyLabel())
-       
- 2. run the app
+    ```
+    
+ 2. run the code
  3. hit "alt+space" to make the label appear
  4. close the app (it will just hide)
  5. hit again "alt+space" to make the label reappear
